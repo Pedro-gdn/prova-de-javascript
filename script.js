@@ -28,11 +28,11 @@ function dr()
 {
     if(num1.value < num2.value)
     {
-      rs.innerHTML = num1.value + " menor " + num2.value
+      rs.innerHTML = num1.value + " menor que" + num2.value
     }
    else
    {
-    rs.innerHTML = num2.value + " maior " + num1.value
+    rs.innerHTML = num2.value + " maior que" + num1.value
    }
 
 }
